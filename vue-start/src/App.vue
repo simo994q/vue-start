@@ -15,19 +15,19 @@ export default {
 </template>
 
 <style lang="scss">
-    main {
-      max-width: 800px;
-      margin: auto;
+main {
+  max-width: 800px;
+  margin: auto;
 
-      h1 {
-        border-bottom: 2px solid #333;
-        padding: 10px 0;
-        color: #333;
-      }
+  h1 {
+    border-bottom: 2px solid #333;
+    padding: 10px 0;
+    color: #333;
+  }
 
-      p {
-        color: #333;
-        margin: 10px 0;
-      }
-    }
+  p {
+    color: #333;
+    margin: 10px 0;
+  }
+}
 </style>
