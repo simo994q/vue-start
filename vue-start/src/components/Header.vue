@@ -6,9 +6,9 @@
     <div class="headerContainer">
         <h1>Vue App</h1>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
+            <router-link to="/">Home</router-link>
+            <router-link to="/about">About</router-link>
+            <router-link to="/contact">Contact</router-link>
         </ul>
     </div>
 </template>
@@ -29,8 +29,12 @@
         display: flex;
         list-style: none;
         gap: 10px;
-        color: #efefef;
         font-size: 20px;
+        
+        a {
+            color: #efefef;
+            text-decoration: none;
+        }
     }
 }
 

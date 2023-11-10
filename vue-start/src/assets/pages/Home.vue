@@ -1,17 +1,12 @@
 <script>
-import Header from './components/Header.vue';
-
-export default {
-  components: {
-    Header
-  }
-}
 
 </script>
 
 <template>
-  <Header />
-  <router-view />
+  <main>
+    <h1>Min Vue app</h1>
+    <p>Lavet for at prøve Vue</p>
+  </main>
 </template>
 
 <style lang="scss">
