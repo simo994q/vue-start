@@ -8,13 +8,13 @@
         <ul>
             <router-link to="/">Home</router-link>
             <router-link to="/about">About</router-link>
+            <router-link to="/about/test">Test</router-link>
             <router-link to="/contact">Contact</router-link>
         </ul>
     </div>
 </template>
 
 <style lang="scss">
-
 .headerContainer {
     background-color: #333;
     display: flex;
@@ -25,17 +25,22 @@
     h1 {
         color: #efefef;
     }
+
     ul {
         display: flex;
         list-style: none;
         gap: 10px;
         font-size: 20px;
-        
+
         a {
             color: #efefef;
             text-decoration: none;
         }
+
+        a.router-link-exact-active {
+            color: rgb(130, 130, 250);
+        }
+
     }
 }
-
 </style>
